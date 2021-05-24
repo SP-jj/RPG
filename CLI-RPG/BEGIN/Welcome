@@ -1,0 +1,30 @@
+Welcome to...
+
+░█████╗░░█████╗░███╗░░░███╗███╗░░░███╗██╗░░░██╗███╗░░██╗██╗████████╗██╗░░░██╗    ░██████╗███████╗██████╗░██╗░░░██╗██╗░█████╗░███████╗
+██╔══██╗██╔══██╗████╗░████║████╗░████║██║░░░██║████╗░██║██║╚══██╔══╝╚██╗░██╔╝    ██╔════╝██╔════╝██╔══██╗██║░░░██║██║██╔══██╗██╔════╝
+██║░░╚═╝██║░░██║██╔████╔██║██╔████╔██║██║░░░██║██╔██╗██║██║░░░██║░░░░╚████╔╝░    ╚█████╗░█████╗░░██████╔╝╚██╗░██╔╝██║██║░░╚═╝█████╗░░
+██║░░██╗██║░░██║██║╚██╔╝██║██║╚██╔╝██║██║░░░██║██║╚████║██║░░░██║░░░░░╚██╔╝░░    ░╚═══██╗██╔══╝░░██╔══██╗░╚████╔╝░██║██║░░██╗██╔══╝░░
+╚█████╔╝╚█████╔╝██║░╚═╝░██║██║░╚═╝░██║╚██████╔╝██║░╚███║██║░░░██║░░░░░░██║░░░    ██████╔╝███████╗██║░░██║░░╚██╔╝░░██║╚█████╔╝███████╗
+░╚════╝░░╚════╝░╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░╚═════╝░╚═╝░░╚══╝╚═╝░░░╚═╝░░░░░░╚═╝░░░    ╚═════╝░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚══════╝
+
+by: Stef Pollo, 2021
+
+Instructions:
+
+There are certain commands you can enter, that allow you to do stuff in the game.
+
+One of them is "ls".
+"ls" lets you look around and see all the options of things you can currently do. 
+
+Options named in camelCase are actions you can take in your current location. 
+	You can select them by entering "./" and then the name of the action(without spaces) into the command-line
+
+Options named in CAPITAL_SNAKE_CASE are locations you can go to in the game.
+	You can go to these locations by entering "cd", followed by a space, and then the name of the location
+
+Options named "<LOCATION_NAME>Scroll" provide context and instructions for what you need to do in that location.
+	You can open them by entering "cat", followed by a space, and then the name of the scroll.
+	For example, this file would've been shown by entering "cat Welcome".
+
+To start the game (or restart it), come back to this location and enter "./.setupGame.sh" into the command-line
+if You get an error about permissions, try entering "chmod +x .setupGame.sh" and then reenter the prevoius command again

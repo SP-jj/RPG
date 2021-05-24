@@ -1,0 +1,1 @@
+compileCMD:clang++ {{FILEcpp}} -std=c++17 -o {{FILE}}
