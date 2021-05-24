@@ -1,7 +1,7 @@
 // Name: Stef Pollo
 // Date: 19 May 2021
-// Program Name: 
-// Purpose:
+// Program Name: wakeUp.cpp
+// Purpose: Start story of game. initiate game events.
 
 #include <iostream>
 #include <string>
